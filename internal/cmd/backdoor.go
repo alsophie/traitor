@@ -22,7 +22,7 @@ var backdoorCmd = &cobra.Command{
 
 var backdoorInstallCmd = &cobra.Command{
 	Use:   "install [path]",
-	Short: "Install a root shell backdoor",
+	Short: "Installing a root shell backdoor",
 	Args:  cobra.MaximumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 
