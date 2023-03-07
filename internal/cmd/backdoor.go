@@ -34,7 +34,7 @@ var backdoorInstallCmd = &cobra.Command{
 			path, err = backdoor.Install()
 		}
 		if err != nil {
-			fail("Failed to install backdoor: %s", err)
+			fail("Oops! Failed to install backdoor: %s", err)
 		}
 
 		fmt.Println(*path)
