@@ -31,7 +31,7 @@ func init() {
 var rootCmd = &cobra.Command{
 	Use:   "traitor",
 	Short: "Traitor is a privilege escalation framework for Linux",
-	Long: `An extensible privilege escalation framework for Linux
+	Long: `An extensible privilege escalation framework for a Linux
                 Complete documentation is available at https://github.com/liamg/traitor`,
 	Args: cobra.ExactArgs(0),
 	PreRun: func(_ *cobra.Command, args []string) {
